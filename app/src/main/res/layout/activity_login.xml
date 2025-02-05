@@ -8,60 +8,64 @@
     tools:context=".Login">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="157dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="184dp"
-        android:text="TextView"
+        android:id="@+id/log_txt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="Login"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="288dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="72dp"
+        android:id="@+id/log_ptxt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:ems="10"
+        android:hint="Email"
         android:inputType="text"
-        android:text="Name"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/log_txt_login" />
 
     <EditText
-        android:id="@+id/editTextText4"
-        android:layout_width="288dp"
-        android:layout_height="48dp"
+        android:id="@+id/log_ptxt_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Password"
         android:inputType="text"
-        android:text="Name"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/log_btn_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+        app:layout_constraintTop_toBottomOf="@+id/log_ptxt_email"
         app:layout_constraintVertical_bias="0.553" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/log_btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="228dp"
-        android:text="Button"
+        android:text="Log in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <CheckedTextView
-        android:id="@+id/checkedTextView"
+        android:id="@+id/log_checktxt_toregister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="60dp"
         android:layout_marginBottom="128dp"
-        android:text="CheckedTextView"
+        android:text="sign up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
