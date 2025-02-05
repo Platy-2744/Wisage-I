@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "450313923835",
+    "project_id": "wisage-mobile-project-2-2024",
+    "storage_bucket": "wisage-mobile-project-2-2024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450313923835:android:48708ea92f2ef41352d45e",
+        "android_client_info": {
+          "package_name": "com.example.wisage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJeRRVxNkAHMfRpJB-vq2ooQziUOOj2fA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
