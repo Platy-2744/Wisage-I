@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         }
         init()
         tolog!!.setOnClickListener{
-            startActivity(Intent(this,Login::class.java))
+            startActivity(Intent(this,SignUp::class.java))
         }
     }
     private fun init(){

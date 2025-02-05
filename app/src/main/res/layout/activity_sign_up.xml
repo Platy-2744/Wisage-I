@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".SignUp">
 
     <TextView
-        android:id="@+id/log_txt_login"
+        android:id="@+id/sig_txt_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="220dp"
-        android:text="Login"
+        android:text="Sign up"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/log_ptxt_email"
+        android:id="@+id/sig_ptxt_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -31,41 +31,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/log_txt_login" />
+        app:layout_constraintTop_toBottomOf="@+id/sig_txt_signup" />
 
     <EditText
-        android:id="@+id/log_ptxt_pass"
+        android:id="@+id/sig_ptxt_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Password"
         android:inputType="text"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/log_btn_login"
+        app:layout_constraintBottom_toTopOf="@+id/sig_btn_signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/log_ptxt_email"
+        app:layout_constraintTop_toBottomOf="@+id/sig_ptxt_email"
         app:layout_constraintVertical_bias="0.553" />
 
     <Button
-        android:id="@+id/log_btn_login"
+        android:id="@+id/sig_btn_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="228dp"
-        android:text="Log in"
+        android:text="Sign up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <CheckedTextView
-        android:id="@+id/log_checktxt_tosignup"
+        android:id="@+id/sig_checktxt_tologin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="128dp"
-        android:text="sign up"
+        android:text="Log in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
